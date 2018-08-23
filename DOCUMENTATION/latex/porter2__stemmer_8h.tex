@@ -1,0 +1,192 @@
+\hypertarget{porter2__stemmer_8h}{}\section{porter2\+\_\+stemmer.\+h File Reference}
+\label{porter2__stemmer_8h}\index{porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}}
+{\ttfamily \#include $<$vector$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+Include dependency graph for porter2\+\_\+stemmer.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Porter2\+Stemmer\+::stem} (std\+::string \&word)\hypertarget{porter2__stemmer_8h_ad07c4652a1144329db4bdfb6ce640d80}{}\label{porter2__stemmer_8h_ad07c4652a1144329db4bdfb6ce640d80}
+
+\item 
+void {\bfseries Porter2\+Stemmer\+::trim} (std\+::string \&word)\hypertarget{porter2__stemmer_8h_ac74222c2eb041cff861fddfd529bc983}{}\label{porter2__stemmer_8h_ac74222c2eb041cff861fddfd529bc983}
+
+\item 
+size\+\_\+t {\bfseries Porter2\+Stemmer\+::internal\+::first\+Non\+Vowel\+After\+Vowel} (const std\+::string \&word, size\+\_\+t start)\hypertarget{porter2__stemmer_8h_a4419080bc3b64aca4998a732e9f99d84}{}\label{porter2__stemmer_8h_a4419080bc3b64aca4998a732e9f99d84}
+
+\item 
+size\+\_\+t {\bfseries Porter2\+Stemmer\+::internal\+::get\+Start\+R1} (const std\+::string \&word)\hypertarget{porter2__stemmer_8h_a2d7e133e04950f30c9b3a2935be7c802}{}\label{porter2__stemmer_8h_a2d7e133e04950f30c9b3a2935be7c802}
+
+\item 
+size\+\_\+t {\bfseries Porter2\+Stemmer\+::internal\+::get\+Start\+R2} (const std\+::string \&word, size\+\_\+t start\+R1)\hypertarget{porter2__stemmer_8h_a87bb0a5733b6267185b7951349477070}{}\label{porter2__stemmer_8h_a87bb0a5733b6267185b7951349477070}
+
+\item 
+void {\bfseries Porter2\+Stemmer\+::internal\+::changeY} (std\+::string \&word)\hypertarget{porter2__stemmer_8h_add0f2aec57b66845cb78e98844bb4205}{}\label{porter2__stemmer_8h_add0f2aec57b66845cb78e98844bb4205}
+
+\item 
+void \hyperlink{porter2__stemmer_8h_ae689551ae90968445d4ab1a60ffc805c}{Porter2\+Stemmer\+::internal\+::step0} (std\+::string \&word)
+\item 
+bool \hyperlink{porter2__stemmer_8h_af0acc908e606cd6e2917bf2ed31d5fe7}{Porter2\+Stemmer\+::internal\+::step1A} (std\+::string \&word)
+\item 
+void \hyperlink{porter2__stemmer_8h_af4cffda4b443475c766407d60eac03dc}{Porter2\+Stemmer\+::internal\+::step1B} (std\+::string \&word, size\+\_\+t start\+R1)
+\item 
+void \hyperlink{porter2__stemmer_8h_abc52eb93a0acc99087ca62bb2a4e647e}{Porter2\+Stemmer\+::internal\+::step1C} (std\+::string \&word)
+\item 
+void \hyperlink{porter2__stemmer_8h_a8bde57d3eeee683082f53cd7a9a0a2f8}{Porter2\+Stemmer\+::internal\+::step2} (std\+::string \&word, size\+\_\+t start\+R1)
+\item 
+void \hyperlink{porter2__stemmer_8h_a8ea5872c398ea38fb5ff359879613a4e}{Porter2\+Stemmer\+::internal\+::step3} (std\+::string \&word, size\+\_\+t start\+R1, size\+\_\+t start\+R2)
+\item 
+void \hyperlink{porter2__stemmer_8h_a46c7932444166421508feab27b1addfa}{Porter2\+Stemmer\+::internal\+::step4} (std\+::string \&word, size\+\_\+t start\+R2)
+\item 
+void \hyperlink{porter2__stemmer_8h_ad53abf614a24cba562dba83857f42091}{Porter2\+Stemmer\+::internal\+::step5} (std\+::string \&word, size\+\_\+t start\+R1, size\+\_\+t start\+R2)
+\item 
+bool \hyperlink{porter2__stemmer_8h_a15dc6085d05bf8e2ee691ef08e0fae29}{Porter2\+Stemmer\+::internal\+::is\+Short} (const std\+::string \&word)
+\item 
+bool {\bfseries Porter2\+Stemmer\+::internal\+::special} (std\+::string \&word)\hypertarget{porter2__stemmer_8h_a7c20680dfe258c8050c8225d97b2e160}{}\label{porter2__stemmer_8h_a7c20680dfe258c8050c8225d97b2e160}
+
+\item 
+bool {\bfseries Porter2\+Stemmer\+::internal\+::is\+Vowel} (char ch)\hypertarget{porter2__stemmer_8h_a63d428e12b7b2aeea945c24afe44d1d2}{}\label{porter2__stemmer_8h_a63d428e12b7b2aeea945c24afe44d1d2}
+
+\item 
+bool {\bfseries Porter2\+Stemmer\+::internal\+::is\+VowelY} (char ch)\hypertarget{porter2__stemmer_8h_a72ec1ef1732191be64f203bbe0e4397d}{}\label{porter2__stemmer_8h_a72ec1ef1732191be64f203bbe0e4397d}
+
+\item 
+bool {\bfseries Porter2\+Stemmer\+::internal\+::ends\+With} (const std\+::string \&word, const std\+::string \&str)\hypertarget{porter2__stemmer_8h_a08785aaf007de16789d1cbc50a6d72b4}{}\label{porter2__stemmer_8h_a08785aaf007de16789d1cbc50a6d72b4}
+
+\item 
+bool {\bfseries Porter2\+Stemmer\+::internal\+::ends\+In\+Double} (const std\+::string \&word)\hypertarget{porter2__stemmer_8h_aca68167dfec7979b35d5bc732d2c6ef0}{}\label{porter2__stemmer_8h_aca68167dfec7979b35d5bc732d2c6ef0}
+
+\item 
+bool {\bfseries Porter2\+Stemmer\+::internal\+::replace\+If\+Exists} (std\+::string \&word, const std\+::string \&suffix, const std\+::string \&replacement, size\+\_\+t start)\hypertarget{porter2__stemmer_8h_aff7926ca225a004069d681b88826a73a}{}\label{porter2__stemmer_8h_aff7926ca225a004069d681b88826a73a}
+
+\item 
+bool {\bfseries Porter2\+Stemmer\+::internal\+::is\+Valid\+L\+I\+Ending} (char ch)\hypertarget{porter2__stemmer_8h_acb88f8cc716be69a9c19818473614d68}{}\label{porter2__stemmer_8h_acb88f8cc716be69a9c19818473614d68}
+
+\item 
+bool {\bfseries Porter2\+Stemmer\+::internal\+::contains\+Vowel} (const std\+::string \&word, size\+\_\+t start, size\+\_\+t end)\hypertarget{porter2__stemmer_8h_ade420031f6e4e4a9f432c82b7f54420b}{}\label{porter2__stemmer_8h_ade420031f6e4e4a9f432c82b7f54420b}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Sean Massung 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+September 2012
+\end{DoxyDate}
+Implementation of \href{http://snowball.tartarus.org/algorithms/english/stemmer.html}{\tt http\+://snowball.\+tartarus.\+org/algorithms/english/stemmer.\+html}
+
+Copyright (C) 2012 Sean Massung
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \char`\"{}\+Software\char`\"{}), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions\+:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+T\+HE S\+O\+F\+T\+W\+A\+RE IS P\+R\+O\+V\+I\+D\+ED \char`\"{}\+A\+S I\+S\char`\"{}, W\+I\+T\+H\+O\+UT W\+A\+R\+R\+A\+N\+TY OF A\+NY K\+I\+ND, E\+X\+P\+R\+E\+SS OR I\+M\+P\+L\+I\+ED, I\+N\+C\+L\+U\+D\+I\+NG B\+UT N\+OT L\+I\+M\+I\+T\+ED TO T\+HE W\+A\+R\+R\+A\+N\+T\+I\+ES OF M\+E\+R\+C\+H\+A\+N\+T\+A\+B\+I\+L\+I\+TY, F\+I\+T\+N\+E\+SS F\+OR A P\+A\+R\+T\+I\+C\+U\+L\+AR P\+U\+R\+P\+O\+SE A\+ND N\+O\+N\+I\+N\+F\+R\+I\+N\+G\+E\+M\+E\+NT. IN NO E\+V\+E\+NT S\+H\+A\+LL T\+HE A\+U\+T\+H\+O\+RS OR C\+O\+P\+Y\+R\+I\+G\+HT H\+O\+L\+D\+E\+RS BE L\+I\+A\+B\+LE F\+OR A\+NY C\+L\+A\+IM, D\+A\+M\+A\+G\+ES OR O\+T\+H\+ER L\+I\+A\+B\+I\+L\+I\+TY, W\+H\+E\+T\+H\+ER IN AN A\+C\+T\+I\+ON OF C\+O\+N\+T\+R\+A\+CT, T\+O\+RT OR O\+T\+H\+E\+R\+W\+I\+SE, A\+R\+I\+S\+I\+NG F\+R\+OM, O\+UT OF OR IN C\+O\+N\+N\+E\+C\+T\+I\+ON W\+I\+TH T\+HE S\+O\+F\+T\+W\+A\+RE OR T\+HE U\+SE OR O\+T\+H\+ER D\+E\+A\+L\+I\+N\+GS IN T\+HE S\+O\+F\+T\+W\+A\+RE. 
+
+\subsection{Function Documentation}
+\index{porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}!is\+Short@{is\+Short}}
+\index{is\+Short@{is\+Short}!porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}}
+\subsubsection[{\texorpdfstring{is\+Short(const std\+::string \&word)}{isShort(const std::string &word)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Porter2\+Stemmer\+::internal\+::is\+Short (
+\begin{DoxyParamCaption}
+\item[{const std\+::string \&}]{word}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{porter2__stemmer_8h_file_a15dc6085d05bf8e2ee691ef08e0fae29}{}\label{porter2__stemmer_8h_file_a15dc6085d05bf8e2ee691ef08e0fae29}
+Determines whether a word ends in a short syllable. Define a short syllable in a word as either
+
+(a) a vowel followed by a non-\/vowel other than w, x or Y and preceded by a non-\/vowel (b) a vowel at the beginning of the word followed by a non-\/vowel. \index{porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}!step0@{step0}}
+\index{step0@{step0}!porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}}
+\subsubsection[{\texorpdfstring{step0(std\+::string \&word)}{step0(std::string &word)}}]{\setlength{\rightskip}{0pt plus 5cm}void Porter2\+Stemmer\+::internal\+::step0 (
+\begin{DoxyParamCaption}
+\item[{std\+::string \&}]{word}
+\end{DoxyParamCaption}
+)}\hypertarget{porter2__stemmer_8h_file_ae689551ae90968445d4ab1a60ffc805c}{}\label{porter2__stemmer_8h_file_ae689551ae90968445d4ab1a60ffc805c}
+Step 0 \index{porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}!step1A@{step1A}}
+\index{step1A@{step1A}!porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}}
+\subsubsection[{\texorpdfstring{step1\+A(std\+::string \&word)}{step1A(std::string &word)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Porter2\+Stemmer\+::internal\+::step1A (
+\begin{DoxyParamCaption}
+\item[{std\+::string \&}]{word}
+\end{DoxyParamCaption}
+)}\hypertarget{porter2__stemmer_8h_file_af0acc908e606cd6e2917bf2ed31d5fe7}{}\label{porter2__stemmer_8h_file_af0acc908e606cd6e2917bf2ed31d5fe7}
+Step 1a\+:
+
+sses replace by ss
+
+ied ies replace by i if preceded by more than one letter, otherwise by ie (so ties -\/$>$ tie, cries -\/$>$ cri)
+
+us ss do nothing
+
+s delete if the preceding word part contains a vowel not immediately before the s (so gas and this retain the s, gaps and kiwis lose it) \index{porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}!step1B@{step1B}}
+\index{step1B@{step1B}!porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}}
+\subsubsection[{\texorpdfstring{step1\+B(std\+::string \&word, size\+\_\+t start\+R1)}{step1B(std::string &word, size_t startR1)}}]{\setlength{\rightskip}{0pt plus 5cm}void Porter2\+Stemmer\+::internal\+::step1B (
+\begin{DoxyParamCaption}
+\item[{std\+::string \&}]{word, }
+\item[{size\+\_\+t}]{start\+R1}
+\end{DoxyParamCaption}
+)}\hypertarget{porter2__stemmer_8h_file_af4cffda4b443475c766407d60eac03dc}{}\label{porter2__stemmer_8h_file_af4cffda4b443475c766407d60eac03dc}
+Step 1b\+:
+
+eed eedly replace by ee if in R1
+
+ed edly ing ingly delete if the preceding word part contains a vowel, and after the deletion\+: if the word ends at, bl or iz add e (so luxuriat -\/$>$ luxuriate), or if the word ends with a double remove the last letter (so hopp -\/$>$ hop), or if the word is short, add e (so hop -\/$>$ hope) \index{porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}!step1C@{step1C}}
+\index{step1C@{step1C}!porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}}
+\subsubsection[{\texorpdfstring{step1\+C(std\+::string \&word)}{step1C(std::string &word)}}]{\setlength{\rightskip}{0pt plus 5cm}void Porter2\+Stemmer\+::internal\+::step1C (
+\begin{DoxyParamCaption}
+\item[{std\+::string \&}]{word}
+\end{DoxyParamCaption}
+)}\hypertarget{porter2__stemmer_8h_file_abc52eb93a0acc99087ca62bb2a4e647e}{}\label{porter2__stemmer_8h_file_abc52eb93a0acc99087ca62bb2a4e647e}
+Step 1c\+:
+
+Replace suffix y or Y by i if preceded by a non-\/vowel which is not the first letter of the word (so cry -\/$>$ cri, by -\/$>$ by, say -\/$>$ say) \index{porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}!step2@{step2}}
+\index{step2@{step2}!porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}}
+\subsubsection[{\texorpdfstring{step2(std\+::string \&word, size\+\_\+t start\+R1)}{step2(std::string &word, size_t startR1)}}]{\setlength{\rightskip}{0pt plus 5cm}void Porter2\+Stemmer\+::internal\+::step2 (
+\begin{DoxyParamCaption}
+\item[{std\+::string \&}]{word, }
+\item[{size\+\_\+t}]{start\+R1}
+\end{DoxyParamCaption}
+)}\hypertarget{porter2__stemmer_8h_file_a8bde57d3eeee683082f53cd7a9a0a2f8}{}\label{porter2__stemmer_8h_file_a8bde57d3eeee683082f53cd7a9a0a2f8}
+Step 2\+:
+
+If found and in R1, perform the action indicated.
+
+tional\+: replace by tion enci\+: replace by ence anci\+: replace by ance abli\+: replace by able entli\+: replace by ent izer, ization\+: replace by ize ational, ation, ator\+: replace by ate alism, aliti, alli\+: replace by al fulness\+: replace by ful ousli, ousness\+: replace by ous iveness, iviti\+: replace by ive biliti, bli\+: replace by ble fulli\+: replace by ful lessli\+: replace by less ogi\+: replace by og if preceded by l li\+: delete if preceded by a valid li-\/ending \index{porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}!step3@{step3}}
+\index{step3@{step3}!porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}}
+\subsubsection[{\texorpdfstring{step3(std\+::string \&word, size\+\_\+t start\+R1, size\+\_\+t start\+R2)}{step3(std::string &word, size_t startR1, size_t startR2)}}]{\setlength{\rightskip}{0pt plus 5cm}void Porter2\+Stemmer\+::internal\+::step3 (
+\begin{DoxyParamCaption}
+\item[{std\+::string \&}]{word, }
+\item[{size\+\_\+t}]{start\+R1, }
+\item[{size\+\_\+t}]{start\+R2}
+\end{DoxyParamCaption}
+)}\hypertarget{porter2__stemmer_8h_file_a8ea5872c398ea38fb5ff359879613a4e}{}\label{porter2__stemmer_8h_file_a8ea5872c398ea38fb5ff359879613a4e}
+Step 3\+:
+
+If found and in R1, perform the action indicated.
+
+ational\+: replace by ate tional\+: replace by tion alize\+: replace by al icate, iciti, ical\+: replace by ic ful, ness\+: delete ative\+: delete if in R2 \index{porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}!step4@{step4}}
+\index{step4@{step4}!porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}}
+\subsubsection[{\texorpdfstring{step4(std\+::string \&word, size\+\_\+t start\+R2)}{step4(std::string &word, size_t startR2)}}]{\setlength{\rightskip}{0pt plus 5cm}void Porter2\+Stemmer\+::internal\+::step4 (
+\begin{DoxyParamCaption}
+\item[{std\+::string \&}]{word, }
+\item[{size\+\_\+t}]{start\+R2}
+\end{DoxyParamCaption}
+)}\hypertarget{porter2__stemmer_8h_file_a46c7932444166421508feab27b1addfa}{}\label{porter2__stemmer_8h_file_a46c7932444166421508feab27b1addfa}
+Step 4\+:
+
+If found and in R2, perform the action indicated.
+
+al ance ence er ic able ible ant ement ment ent ism ate iti ous ive ize delete ion delete if preceded by s or t \index{porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}!step5@{step5}}
+\index{step5@{step5}!porter2\+\_\+stemmer.\+h@{porter2\+\_\+stemmer.\+h}}
+\subsubsection[{\texorpdfstring{step5(std\+::string \&word, size\+\_\+t start\+R1, size\+\_\+t start\+R2)}{step5(std::string &word, size_t startR1, size_t startR2)}}]{\setlength{\rightskip}{0pt plus 5cm}void Porter2\+Stemmer\+::internal\+::step5 (
+\begin{DoxyParamCaption}
+\item[{std\+::string \&}]{word, }
+\item[{size\+\_\+t}]{start\+R1, }
+\item[{size\+\_\+t}]{start\+R2}
+\end{DoxyParamCaption}
+)}\hypertarget{porter2__stemmer_8h_file_ad53abf614a24cba562dba83857f42091}{}\label{porter2__stemmer_8h_file_ad53abf614a24cba562dba83857f42091}
+Step 5\+:
+
+e delete if in R2, or in R1 and not preceded by a short syllable l delete if in R2 and preceded by l 
